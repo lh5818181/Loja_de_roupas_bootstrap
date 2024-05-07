@@ -1,0 +1,63 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(227, 135, 24);
+}
+
+#cabecalho.nav .nav-link.active {
+    background-color: #fff;
+    color: burlywood;
+}
+
+#cabecalho.nav .nav-link {
+    color: #fff;
+}
+
+#sobre-loja, #categorias {
+    background-color: cornsilk;
+}
+
+.section-tittle {
+    font-family: Jersey, cursive;
+}
+
+.text-colored {
+    color: rgb(227, 135, 24);
+}
+
+
+.nav-variedades .nav-link.active, #contato button {
+    background-color: rgb(227, 135, 24) ;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+@media (min-width: 767px ) and (max-width: 1023px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    aside {
+        margin-right: 10px;
+    }
+
+    #categorias .col-md-10 {
+        margin-top: 15px;
+    }
+}
